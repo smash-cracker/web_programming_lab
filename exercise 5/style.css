@@ -59,18 +59,27 @@ div.right {
 }
 
 .container {
-    margin: 0;
     width: 100%;
+    margin-top: 40px;
+}
+.panel-primary>.panel-heading {
+    background-color: #6facf5;
+    border-color: #6facf5;
 }
 
 .panel-group {
-    color: #3671b9;
+    color: #6facf5;
     margin: 0;
     height: 300px;
 }
 
 .panel-body {
     padding: 15px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6em;
 }
 
 
@@ -96,4 +105,49 @@ form input[type="submit"] {
     border-radius: 4px;
     color: white;
     font-size: 14px;
+}
+
+.login-icon {
+    display: inline-block;
+    border: 3px solid #3ab0e2;
+    padding: 12px;
+    border-radius: 50%;
+    color: #3ab0e2;
+    font-size: 40px;
+    width: 70px;
+}
+
+div#2 {
+    border: 3px solid #5cb85c;
+    border-color: #5cb85c;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(2) > h3 {
+  color:#3ab0e2;
+  display: inline-block;
+  line-height: 65px;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(3) > h3 {
+    color: #394239;
+    display: inline-block;
+  line-height: 65px;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(4) > h3 {
+    color: #ffcc00;
+    display: inline-block;
+  line-height: 65px;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(3) > div {
+    color: #5cb85c;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(4) > div {
+    color: #ffcc00;
+}
+
+body > main > div > div > div.col-9 > div > div > a:nth-child(3) > h3 {
+    color: #5cb85c;
 }
