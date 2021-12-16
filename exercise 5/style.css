@@ -127,7 +127,7 @@ form input[type="text"]:focus,input[type="password"]:focus {
  
 form input[type="submit"] {
     width: 100%;
-    margin-top: 32px;
+    /*margin-top: 32px;*/
     height: 34px;
     background-color: #5cb85c;
     border: none;
@@ -146,9 +146,13 @@ form input[type="submit"] {
     width: 70px;
 }
 
-div#2 {
+
+div#second {
     border: 3px solid #5cb85c;
-    border-color: #5cb85c;
+}
+
+div#second {
+    border: 3px solid #ffcc00;
 }
 
 body > main > div > div > div.col-9 > div > div > a:nth-child(2) > h3 {
@@ -184,9 +188,15 @@ body > main > div > div > div.col-9 > div > div > a:nth-child(3) > h3 {
 .panel-body input,a {
     display: block;
 }
+
+.panel-body a {
+    font-size: 85%;
+}
+
 input {
     width: 100%;
 }
+
 .footer {
     display: flex;
     background-color: #337ab7;
